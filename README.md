@@ -1,13 +1,36 @@
-# cs2-killfeed-icons
-**a plugin to customize the killfeed icons**
+<div align="center">
+  <img width="50" height="50" alt="cssharp" src="https://github.com/user-attachments/assets/3393573f-29be-46e1-bc30-fafaec573456" />
+	<h3><strong>Killfeed Icons</strong></h3>
+	<h4>a plugin to customize the killfeed icons</h4>
+	<h2>
+		<img src="https://img.shields.io/github/downloads/exkludera-cssharp/killfeed-icons/total" alt="Downloads">
+		<img src="https://img.shields.io/github/stars/exkludera-cssharp/killfeed-icons?style=flat&logo=github" alt="Stars">
+		<img src="https://img.shields.io/github/forks/exkludera-cssharp/killfeed-icons?style=flat&logo=github" alt="Forks">
+		<img src="https://img.shields.io/github/license/exkludera-cssharp/killfeed-icons" alt="License">
+	</h2>
+	<!--<a href="https://discord.gg" target="_blank"><img src="https://img.shields.io/badge/Discord%20Server-7289da?style=for-the-badge&logo=discord&logoColor=white" /></a> <br>-->
+	<a href="https://ko-fi.com/exkludera" target="_blank"><img src="https://img.shields.io/badge/KoFi-af00bf?style=for-the-badge&logo=kofi&logoColor=white" alt="Buy Me a Coffee at ko-fi.com" /></a>
+	<a href="https://paypal.com/donate/?hosted_button_id=6AWPNVF5TLUC8" target="_blank"><img src="https://img.shields.io/badge/PayPal-0095ff?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"  /></a>
+	<a href="https://github.com/sponsors/exkludera" target="_blank"><img src="https://img.shields.io/badge/Sponsor-696969?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Sponsor" /></a>
+</div>
 
-<br>
+> [!WARNING]
+> add `"include" "panorama/images/icons/equipment"` at the bottom of gameinfo.gi before uploading addon
+>
+> also don't forget to remove it when you're done or you wont be able to join servers
 
-<img src="https://github.com/user-attachments/assets/db91d07e-2550-4bf2-b5c2-e4a0f4002873" width="150">
+to make your own icon you have to upload a .svg file to that path in your addon <br>
+`"Icon": "YOUR-ICON"` = content/your-addon/panorama/images/icons/equipment/YOUR-ICON.svg
 
-<br>
+### Requirements
+- [MetaMod](https://github.com/alliedmodders/metamod-source)
+- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 
+## Showcase
 <details>
+	<summary>content</summary>
+  <img src="https://github.com/user-attachments/assets/db91d07e-2550-4bf2-b5c2-e4a0f4002873" width="150">
+  <details>
 <summary>list of cs2 icons & weapon names</summary>
 ak47<br>
 ammobox<br>
@@ -127,27 +150,12 @@ zone_repulsor<br>
 </details>
 
 can be found in `game/csgo/panorama/images/icons/equipment` with [Source2 Viewer](https://valveresourceformat.github.io/) <br>
+</details>
 
+## Config
 
-<br>
-
-## information:
-
-### requirements
-- [MetaMod](https://github.com/alliedmodders/metamod-source)
-- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
-
-<br>
-
-> [!WARNING]
-> add `"include" "panorama/images/icons/equipment"` at the bottom of gameinfo.gi before uploading addon
->
-> also don't forget to remove it when you're done or you wont be able to join servers
-
-to make your own icon you have to upload a .svg file to that path in your addon <br>
-`"Icon": "YOUR-ICON"` = content/your-addon/panorama/images/icons/equipment/YOUR-ICON.svg
-
-## example config
+<details>
+<summary>Killfeed_Icons.json</summary>
 
 Default: `0` (0 = default, 1 = force enable, 2 = force disable)
 
@@ -177,5 +185,4 @@ Default: `0` (0 = default, 1 = force enable, 2 = force disable)
   }
 }
 ```
-
-<br> <a href="https://ko-fi.com/exkludera" target="blank"><img src="https://cdn.ko-fi.com/cdn/kofi5.png" height="48px" alt="Buy Me a Coffee at ko-fi.com"></a>
+</details>
